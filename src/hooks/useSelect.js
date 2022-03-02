@@ -8,13 +8,14 @@ const useSelect = (stateInicial, opciones) => {
   // value es el valor del option
   // label es el texto que se muestra en el option
   const [state, actualizarState] = useState('');
-  
+
   const SelectNoticias = () => (
     <select
       className="browser-default"
-      onChange={e => setCategoria(e.target.value)}
+      value={state}
+      onChange={e => actualizarState(e.target.value)}
     >
-      <option value="">Noticias por categoria...</option>
+      <option value="">News by category...</option>
       {opciones.map(opcion => (
         <option key={opcion.value} value={opcion.value}>
           {opcion.label}
