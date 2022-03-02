@@ -1,7 +1,7 @@
 <br />
 <span>
-    You should try the application only running locally.
-    THIS IS THE MESSAGE:
+    Try this application locally. because i have this error message from the API:
+    THE MESSAGE:
     If your project is being used in production, please upgrade to a paid plan.
   </span>
 <p align="center">
@@ -11,7 +11,7 @@
    <p align="center"
      The Bookstore is a website similar to the "Awesome Books" website built in the previous module. You will create an MVP version of it that allows you to:
    </p>
-      <a href="https://breakingnewsnews.netlify.app/">Live Demo</a>
+   <a href="https://breakingnewsnews.netlify.app/">Live Demo</a>
    ·
    <a href="https://github.com/carlos-ssh/breaking-news/issues">Report Bug</a>
    ·
